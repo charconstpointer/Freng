@@ -40,7 +40,7 @@ namespace Freng
         {
             var w = image.Width;
             var h = image.Height;
-            var canvas = new Canvas(w, h);
+            var canvas = new Canvas(h, w);
             canvas.DrawImage(image);
         }
 
